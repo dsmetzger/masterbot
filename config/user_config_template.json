@@ -1,0 +1,106 @@
+{
+  "user_profile": {
+    "name": "YOUR_NAME_HERE",
+    "email": "your.email@example.com",
+    "phone_number": "+1-555-0123",
+    "location": {
+      "address": "123 Your Street, Your City, State 12345",
+      "city": "Your City",
+      "state": "Your State",
+      "country": "Your Country",
+      "timezone": "America/New_York",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "date_of_birth": "1990-01-15",
+    "preferred_language": "en-US"
+  },
+  "ai_services": {
+    "default_provider": "openai",
+    "openai": {
+      "api_key": "ENTER_YOUR_OPENAI_API_KEY_HERE",
+      "model": "gpt-3.5-turbo",
+      "max_tokens": 1000,
+      "temperature": 0.7
+    },
+    "claude": {
+      "api_key": "ENTER_YOUR_CLAUDE_API_KEY_HERE",
+      "model": "claude-3-sonnet-20240229",
+      "max_tokens": 1000
+    }
+  },
+  "preferences": {
+    "interests": {
+      "technology": 5,
+      "music": 3,
+      "sports": 2,
+      "cooking": 4,
+      "travel": 3,
+      "art": 2,
+      "fitness": 4,
+      "reading": 3
+    },
+    "preferred_time_slots": [
+      {"start_hour": 9, "end_hour": 12, "days": ["monday", "tuesday", "wednesday", "thursday", "friday"]},
+      {"start_hour": 18, "end_hour": 22, "days": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]}
+    ],
+    "max_travel_distance_km": 25.0,
+    "preferred_transportation": ["walking", "public_transport", "car"],
+    "budget_limits": {
+      "daily": 100.0,
+      "weekly": 500.0,
+      "monthly": 2000.0,
+      "currency": "USD"
+    },
+    "accessibility_needs": [],
+    "dietary_restrictions": []
+  },
+  "notification_settings": {
+    "email_notifications": true,
+    "sms_notifications": false,
+    "push_notifications": true,
+    "notification_times": {
+      "daily_recommendations": "08:00",
+      "event_reminders": [60, 15],
+      "weekly_summary": "sunday:10:00"
+    },
+    "quiet_hours": {
+      "enabled": true,
+      "start_time": "22:00",
+      "end_time": "07:00"
+    }
+  },
+  "privacy_settings": {
+    "data_sharing": {
+      "analytics": true,
+      "third_party": false,
+      "marketing": false
+    },
+    "location_tracking": true,
+    "activity_logging": true,
+    "data_retention_days": 365
+  },
+  "app_settings": {
+    "theme": "auto",
+    "date_format": "MM/DD/YYYY",
+    "time_format": "12h",
+    "first_day_of_week": "sunday",
+    "auto_sync": true,
+    "sync_interval_minutes": 30,
+    "offline_mode": false,
+    "cache_size_mb": 100,
+    "log_level": "info"
+  },
+  "advanced_settings": {
+    "recommendation_algorithm": "hybrid",
+    "learning_rate": 0.1,
+    "diversity_factor": 0.3,
+    "novelty_boost": 0.2,
+    "popularity_weight": 0.1,
+    "recency_bias": 0.8,
+    "max_recommendations_per_day": 10,
+    "min_recommendation_score": 0.6
+  }
+}
